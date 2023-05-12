@@ -83,6 +83,10 @@ define( 'AUTH_SALT',        getenv_docker('WORDPRESS_AUTH_SALT',        'dc9d812
 define( 'SECURE_AUTH_SALT', getenv_docker('WORDPRESS_SECURE_AUTH_SALT', '16d7e578dba37bc5eb35ce70b6e1a0e24779e932') );
 define( 'LOGGED_IN_SALT',   getenv_docker('WORDPRESS_LOGGED_IN_SALT',   'fafa17aa766a4c957704b1b94fbd3871de91371e') );
 define( 'NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       '7b38e547219cc50417543e57510451e020783a84') );
+
+define('JWT_AUTH_SECRET_KEY', 'secret');
+define('JWT_AUTH_CORS_ENABLE', true);
+
 // (See also https://wordpress.stackexchange.com/a/152905/199287)
 
 /**#@-*/
