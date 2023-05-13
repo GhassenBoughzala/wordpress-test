@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "BUILD_PATH=/wp-content/reactpress/apps/book-test react-scripts build",
+    "build": "BUILD_PATH=../apps/book-test/build react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
